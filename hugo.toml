@@ -1,0 +1,34 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Luis Ramirez: Software Developer'
+theme = 'sibucan'
+
+[menus]
+  [[menus.main]]
+    name = 'Home'
+    pageRef = '/'
+    weight = 10
+
+  [[menus.main]]
+    name = 'Posts'
+    pageRef = '/posts'
+    weight = 20
+
+  [[menus.main]]
+    name = 'Tags'
+    pageRef = '/tags'
+    weight = 30
+
+  [[menus.main]]
+    name = 'Resume'
+    pageRef = '/resume'
+    weight = 40
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = '0.146.0'
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
