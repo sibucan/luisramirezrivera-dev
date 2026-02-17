@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on Luis Ramirez: Software Developer</title>
+    <title>Home on Luis Ramírez: Software Developer</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content in Home on Luis Ramirez: Software Developer</description>
+    <description>Recent content in Home on Luis Ramírez: Software Developer</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Feb 2026 15:56:00 -0500</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Publishing your own site with Hugo and GitHub pages</title>
+      <link>http://localhost:1313/posts/web-development-with-hugo/</link>
+      <pubDate>Sun, 15 Feb 2026 15:56:00 -0500</pubDate>
+      <guid>http://localhost:1313/posts/web-development-with-hugo/</guid>
+      <description>&lt;p&gt;I had a need to get my own site, and I was looking to get something simple&#xA;(meaning little HTML and CSS wrangling) up and running as cheaply as possible.&#xA;It was actually pretty easy to get a website up and running using a combination&#xA;of Hugo and Github Pages to do this. I&amp;rsquo;ll divide this post in three sections:&#xA;using Hugo for your webpage, setting up your Github repo to publish the site&#xA;automatically, and finally doing the DNS magic.&lt;/p&gt;</description>
+    </item>
     <item>
       <title></title>
       <link>http://localhost:1313/resume/cv/</link>
