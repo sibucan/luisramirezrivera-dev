@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Github on Luis Ramírez: Software Developer</title>
+    <title>Github on Luis E. Ramírez Rivera: Software Developer</title>
     <link>http://localhost:1313/tags/github/</link>
-    <description>Recent content in Github on Luis Ramírez: Software Developer</description>
+    <description>Recent content in Github on Luis E. Ramírez Rivera: Software Developer</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 15 Feb 2026 15:56:00 -0500</lastBuildDate>
@@ -13,7 +13,7 @@
       <link>http://localhost:1313/posts/web-development-with-hugo/</link>
       <pubDate>Sun, 15 Feb 2026 15:56:00 -0500</pubDate>
       <guid>http://localhost:1313/posts/web-development-with-hugo/</guid>
-      <description>&lt;p&gt;I had a need to get my own site, and I was looking to get something simple&#xA;(meaning little HTML and CSS wrangling) up and running as cheaply as possible.&#xA;It was actually pretty easy to get a website up and running using a combination&#xA;of Hugo and Github Pages to do this. I&amp;rsquo;ll divide this post in three sections:&#xA;using Hugo for your webpage, setting up your Github repo to publish the site&#xA;automatically, and finally doing the DNS magic.&lt;/p&gt;</description>
+      <description>How I developed this site with Hugo, and used GitHub to build, deploy, and host my static webpage.</description>
     </item>
   </channel>
 </rss>

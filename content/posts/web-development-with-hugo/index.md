@@ -2,6 +2,7 @@
 title = 'Publishing your own site with Hugo and GitHub pages'
 date = 2026-02-15T15:56:00-05:00
 draft = true
+summary = 'How I developed this site with Hugo, and used GitHub to build, deploy, and host my static webpage.'
 tags = ['hugo', 'web-development', 'github']
 +++
 

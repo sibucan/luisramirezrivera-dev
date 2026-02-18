@@ -1,6 +1,6 @@
 baseURL = 'https://luisramirezrivera.dev/'
 languageCode = 'en-us'
-title = 'Luis Ramírez: Software Developer'
+title = 'Luis E. Ramírez Rivera: Software Developer'
 theme = 'sibucan'
 
 [menus]
