@@ -6,12 +6,12 @@
     <description>Recent content in Posts on Luis E. Ramírez Rivera: Software Developer</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 15 Feb 2026 15:56:00 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 11 Mar 2026 15:23:00 -0500</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Publishing your own site with Hugo and GitHub pages</title>
       <link>http://localhost:1313/posts/web-development-with-hugo/</link>
-      <pubDate>Sun, 15 Feb 2026 15:56:00 -0500</pubDate>
+      <pubDate>Wed, 11 Mar 2026 15:23:00 -0500</pubDate>
       <guid>http://localhost:1313/posts/web-development-with-hugo/</guid>
       <description>How I developed this site with Hugo, and used GitHub to build, deploy, and host my static webpage.</description>
     </item>

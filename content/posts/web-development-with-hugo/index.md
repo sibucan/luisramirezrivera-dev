@@ -1,7 +1,7 @@
 +++
 title = 'Publishing your own site with Hugo and GitHub pages'
-date = 2026-02-15T15:56:00-05:00
-draft = true
+date = 2026-03-11T15:23:00-05:00
+draft = false
 summary = 'How I developed this site with Hugo, and used GitHub to build, deploy, and host my static webpage.'
 tags = ['hugo', 'web-development', 'github']
 +++
@@ -23,7 +23,7 @@ Rather than using one of the many pre‑made themes, I decided to make my own so
 I could have more control of the colors and font. A theme in Hugo is mostly
 just a handful of template files and some configuration and so it is not hard
 to follow to the untrained eye. I started by generating a default theme with 
-the `hugo new theme mytheme` and then modified the files it generated. 
+the `hugo new theme mytheme` and then modified the files it generated.
 
 While I was working on the design I used `hugo server` to spin up a local web
 server. It watches your files and reloads the page whenever you save, which is
@@ -37,7 +37,7 @@ A few other tips for newcomers:
    them.
 2. The front‑matter (that little TOML or YAML block at the top) can have a lot
    of knobs about the post that can be tweaked depending on how you want it to
-   look like: such as setting a [custom summary](https://gohugo.io/content-management/summaries/) for the post.
+   look like, such as setting a [custom summary](https://gohugo.io/content-management/summaries/) for the post.
 3. When you’re ready to build for real, run `hugo` and look in the `public/`
    directory; that’s what GitHub Pages will serve.
 
@@ -57,8 +57,7 @@ Here’s the basic flow I followed:
 2. Commit everything and push to your main branch.
 3. Add a workflow file under `.github/workflows/build.yml`. The YAML runs on
    every push, checks out the repo, installs Hugo, runs `hugo`, and then
-   deploys the contents of `public/` to the `gh-pages` branch using the
-   `peaceiris/actions-gh-pages` action. 
+   deploys the contents of `public/` on the main branch.
 
 I used the workflow that the [Hugo documentation recommends](https://gohugo.io/host-and-deploy/host-on-github-pages),
 with a couple of changes (your mileage may vary):

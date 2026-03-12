@@ -44,7 +44,7 @@
 
   
   
-  <time datetime="2026-02-15T15:56:00-05:00">February 15, 2026</time>
+  <time datetime="2026-03-11T15:23:00-05:00">March 11, 2026</time>
 
   <p>I had a need to get my own site, and I was looking to get something simple
 (meaning little HTML and CSS wrangling) up and running as cheaply as possible.
@@ -72,7 +72,7 @@ That way, content such as pictures can coexist with the posts that reference
 them.</li>
 <li>The front‑matter (that little TOML or YAML block at the top) can have a lot
 of knobs about the post that can be tweaked depending on how you want it to
-look like: such as setting a <a href="https://gohugo.io/content-management/summaries/">custom summary</a> for the post.</li>
+look like, such as setting a <a href="https://gohugo.io/content-management/summaries/">custom summary</a> for the post.</li>
 <li>When you’re ready to build for real, run <code>hugo</code> and look in the <code>public/</code>
 directory; that’s what GitHub Pages will serve.</li>
 </ol>
@@ -89,8 +89,7 @@ locally and copy your Hugo site into it.</li>
 <li>Commit everything and push to your main branch.</li>
 <li>Add a workflow file under <code>.github/workflows/build.yml</code>. The YAML runs on
 every push, checks out the repo, installs Hugo, runs <code>hugo</code>, and then
-deploys the contents of <code>public/</code> to the <code>gh-pages</code> branch using the
-<code>peaceiris/actions-gh-pages</code> action.</li>
+deploys the contents of <code>public/</code> on the main branch.</li>
 </ol>
 <p>I used the workflow that the <a href="https://gohugo.io/host-and-deploy/host-on-github-pages">Hugo documentation recommends</a>,
 with a couple of changes (your mileage may vary):</p>
