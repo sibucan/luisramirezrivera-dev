@@ -6,6 +6,9 @@ draft = false
 
 ## Experience
 
+### Solutions Architect
+**CoreWeave, Philadelphia, PA (Remote)** | March 2026 - Present
+
 ### Staff Software Engineer
 **Ditto, Atlanta, Georgia (Remote)** | June 2025 - Jan 2026
 
